@@ -38,13 +38,13 @@ html{
     font-weight: bold;
 }
 
-@media (max-width: 753px){
+@media (max-width: 767px){
     .navbar ul{
         flex-wrap: wrap;
         justify-content: center;
     }
 }
-@media (max-width: 505px){
+@media (max-width: 480px){
     .navbar ul{
         flex-wrap: wrap;
         justify-content: center;
@@ -55,7 +55,6 @@ html{
 #home{
     display: flex;
     flex-direction: column;
-    background-color: rgba(27, 27, 27, 0.5);
     height: 840px;
     justify-content: center;
     align-items: center;
@@ -92,7 +91,7 @@ html{
     margin: 0px 10px;
     font-family: century;
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
 }
 .headings{
     font-family: century;
@@ -130,15 +129,15 @@ html{
     color:#552b8b;
 }
 
-@media (max-width: 505px){
+@media (max-width: 480px){
     .links{
-        text-align: center;
-        align-items: center;
+        right: 35%;
+    }
+    .main{
+        right: 30%;
     }
     .headings{
         font-size: 1.5rem;
-        text-align: center;
-        align-items: center;
     }
 }
 
@@ -178,7 +177,7 @@ html{
     margin-bottom: 20px;   
 }
 
-@media (max-width: 753px){
+@media (max-width: 767px){
     #pic{
         flex-direction: column;
         align-items: center;
@@ -192,13 +191,17 @@ html{
         padding: 10px;
     }
 }
-@media (max-width: 505px){
+@media (max-width: 480px){
     #pic img{
         width:300px;
         height: 175px;
     }
+    #intro{
+        align-items: center;
+        text-align: justify;
+    }
     #intro h2{
-        font-size: 1.5rem;
+        font-size: 1.0rem;
     }
 }
 /* skill section*/
@@ -271,7 +274,7 @@ html{
     font-size: 20px;
     font-weight: 600;
 }
-@media (max-width: 753px){
+@media (max-width: 767px){
     .wrapper{
         width: 700px;
     }
@@ -280,7 +283,7 @@ html{
         margin-bottom: 20px;
     }
 }
-@media (max-width: 505px){
+@media (max-width: 480px){
     .wrapper{
         width: 500px;
     }
@@ -344,7 +347,7 @@ html{
 .para{
     margin-top: 70px;
 }
-@media (max-width: 505px){
+@media (max-width: 480px){
     .gallery img{
         width: 250px;
         height: 150px;
