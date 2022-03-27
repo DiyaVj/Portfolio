@@ -359,8 +359,10 @@ html{
 #footer{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    color: rgba(24, 24, 26, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    font-display: bold;
+
     align-items: center;
     padding: 10px;
 }
